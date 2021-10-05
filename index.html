@@ -7,64 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <title>Buy Shoes - Brand</title>
     <link rel="shortcut icon" href="C:\Users\Ankit Mishra\Desktop\Assignment\Brand Project\logo.png" type="image/x-icon">
-    
-    <style>
-        * {
-            box-sizing: border-box;
-            margin:0px;
-            padding:0px;
-            font-family: sans-serif;
-        }
-        li {
-            list-style: none;
-        }
-        a {
-            text-decoration: none;
-            color:black;
-        }
-        .nav {
-            display:flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: rgb(252, 244, 244);
-            font-weight: 540;
-            padding: 0.4% 10%;
-            
-            width:100%;
-        }
-        .logo {
-            width:5%
-        }
-        .logo > img {
-            border-radius: 3px;
-        }
-        .nav-list {
-            display:flex;
-        }
-        .nav-list a:hover {
-            text-decoration: underline;
-            color:green;
-        }
-        .nav-list  li {
-            margin:0 20px;
-        }
-        .log-sign {
-            display:flex;
-        }
-        .log-sign a {
-            color: rgb(1, 41, 7);
-            font-weight: bold;
-            margin:0px 20px;
-        }
-        .log-sign a:hover {
-            text-decoration: underline;
-            color:green;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+ <!-- nav bar start-->
 <div class="nav">
 
     <div class="logo">
@@ -85,17 +31,73 @@
     </ul>
 
 </div>
+<!-- nav bar end -->
+<!--img slide  start-->
+<div id="slides"></div>
 
-<!--  -->
-<div>
-
+<div class="Top-Brands">
+    <h1><u>OUR TOP BRANDS</u></h1>
+    <a href="#"><img src="https://www.bing.com/th?id=OIP.bVVDO5F1WIlXWaiwbPcr_gHaFA&w=153&h=103&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=OIP.XRQGKb0euINIwjz8uhOAGwHaE8&w=146&h=97&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="There could be image"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=AMMS_cc3d1c9c629ccd3049c6a6e5515a266e&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&pid=16.1" alt="There could be image"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=OIP.KdzuzX8TqYacMKjTuKhgZAHaEo&w=159&h=99&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="There could be image"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=OIP.gu3MwKCed7lso3tnlT1izAHaCr&w=249&h=98&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="There could be image"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=AMMS_464cfffdd9777e8a00eb602419ca8f70&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&pid=16.1" alt="There could be image"></a>
+    <a href="#"><img src="https://www.bing.com/th?id=OIP.L_LDxuqlXcp4LOkCh9UrLwHaHw&w=195&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="There could be image"></a>
 </div>
+<!--img slide  start-->
+
+<!-- video slide start -->
+
+<div class="slideshow-container">
+
+    <h2 style="text-align: center;"><u>SOME VIDEOS FOR QUALITY</u></h2>
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <video controls width="100%" height="400px">
+        <source src="C:\Users\Ankit Mishra\Downloads\WhatsApp Video 2021-10-03 at 7.35.42 PM.mp4" type="video/mp4">
+    </video>
+      <div class="text">Quality Matters</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <video controls width="100%" height="400px">
+        <source src="C:\Users\Ankit Mishra\Downloads\WhatsApp Video 2021-10-03 at 7.35.49 PM.mp4" type="video/mp4">
+    </video>
+      <div class="text">Quality Matters</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <video controls width="100%" height="400px">
+        <source src="C:\Users\Ankit Mishra\Downloads\WhatsApp Video 2021-10-02 at 4.23.41 PM.mp4" type="video/mp4">
+    </video>
+      <div class="text">Quality Matters</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+ <!-- video slide end -->
 
 
 </body>
 
 </html>
 
+<script src="index.js"></script>
+
 <script>
-    
+
 </script>
