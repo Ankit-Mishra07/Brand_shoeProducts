@@ -78,3 +78,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
+setTimeout(function(){
+    alert("Never miss a sale \nSubscribe to get updates on our new products and exclusive promotions")
+},4000)
